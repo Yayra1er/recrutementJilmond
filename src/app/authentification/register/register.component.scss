@@ -1,0 +1,151 @@
+/* Styling for the main authentication container */
+.auth-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styling for the authentication wrapper */
+.auth-wrapper {
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Styling for the authentication form */
+.auth-form {
+  padding: 20px;
+}
+
+/* Styling for the card */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for the card body */
+.card-body {
+  text-align: center;
+}
+
+/* Styling for the authentication header */
+.auth-header {
+  margin-top: 5rem;
+}
+
+/* Styling for the "Inscription" title */
+h2.text-secondary {
+  font-size: 24px;
+}
+
+/* Styling for the "Entrez vos informations pour continuer" text */
+p.fs-4 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Styling for the "S'inscrire avec Google" button */
+button.btn-light-primary {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+
+  img {
+    margin-right: 10px;
+  }
+
+  &:hover {
+    background-color: #d0d0d0;
+  }
+}
+
+/* Styling for the horizontal line separator */
+.séparateur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  span {
+    font-size: 16px;
+    color: #888;
+  }
+}
+
+/* Styling for the "S'inscrire avec une adresse e-mail" title */
+h5.my-4 {
+  text-align: center;
+}
+
+/* Styling for the form inputs and labels */
+.form-floating {
+  margin-bottom: 15px;
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+}
+
+/* Styling for the "J'accepte les Conditions générales" checkbox */
+.form-check {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+
+  label {
+    font-size: 14px;
+
+    span {
+      color: #007bff;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* Styling for the "S'inscrire" button */
+.d-grid {
+  margin-top: 20px;
+
+  button.btn-secondary {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}
+
+/* Styling for the "Vous avez déjà un compte ?" link */
+.d-flex.justify-content-center {
+  a {
+    text-decoration: none;
+    color: #007bff;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

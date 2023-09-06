@@ -1,0 +1,9 @@
+<!-- gestionnaire-dashboard.component.html -->
+<div>
+  <h2>Gestionnaire Dashboard</h2>
+  <button (click)="addJobOffer()">Ajouter une offre</button>
+  <div *ngFor="let offer of jobOffers">
+    <!-- Affichez les détails de l'offre d'emploi ici -->
+    <button (click)="deleteJobOffer(offer.id)">Supprimer</button>
+  </div>
+</div>

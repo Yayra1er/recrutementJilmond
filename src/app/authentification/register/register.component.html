@@ -1,0 +1,60 @@
+<div class="auth-main">
+  <div class="auth-wrapper v3">
+    <div class="auth-form">
+      <div class="card mt-5">
+        <div class="card-body">
+          <div class="row">
+            <div class="d-flex justify-content-center">
+              <div class="auth-header">
+                <h2 class="text-secondary mt-5"><b>Inscription</b></h2>
+                <p class="fs-4 mt-2">Entrez vos informations pour continuer</p>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn mt-2 btn-light-primary bg-light text-muted" style="width: 100%">
+            <img src="../../../assets/image/google-icon.svg" />S'inscrire avec Google
+          </button>
+          <div class="séparateur mt-3">
+            <span>ou</span>
+          </div>
+          <h5 class="my-4 d-flex justify-content-center"> S'inscrire avec une adresse e-mail </h5>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="nom@example.com" />
+                <label for="floatingInput">Prénom</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="nom@example.com" />
+                <label for="floatingInput">Nom de famille</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="nom@example.com" />
+            <label for="floatingInput">Adresse e-mail / Nom d'utilisateur</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="nom@example.com" />
+            <label for="floatingInput">Mot de passe</label>
+          </div>
+          <div class="form-check mt-3s">
+            <input class="form-check-input input-primary" type="checkbox" id="customCheckc1" checked="" />
+            <label class="form-check-label" for="customCheckc1">
+              <h5>J'accepte les <span>Conditions générales.</span></h5>
+            </label>
+          </div>
+          <div class="d-grid mt-4">
+            <button type="button" class="btn btn-secondary p-2">S'inscrire</button>
+          </div>
+          <hr />
+          <h5 class="d-flex justify-content-center">
+            <a [routerLink]="['/guest/login']">Vous avez déjà un compte ?</a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

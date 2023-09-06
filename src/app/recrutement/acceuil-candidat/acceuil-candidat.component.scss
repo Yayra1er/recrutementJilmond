@@ -1,0 +1,72 @@
+.img-wrapper {
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)),url('../../../assets/image/bg.jpeg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    padding-top: 6%;
+    margin-bottom: 3%;
+    contain: content;
+    text-overflow: unset;
+  }
+  .title, .sous-title{
+    color: white;
+  }
+  .title{
+    font-family: "Baloo Da 2", serif;
+    font-size: 80px;
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+    padding-left: 10%;
+    line-height: 9rem;
+    letter-spacing: 0.2rem;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
+  }
+  .title .sous-title{
+    font-family: "Josefin Slab", serif;
+
+    letter-spacing: 0.1rem;
+    margin-bottom: 3rem;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
+  }
+  .second-section{
+    margin-bottom: 2%;
+
+  }
+
+  .img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    animation: scale 25s;
+  }
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+//
