@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EDF2F6;
+    font-family: "Open Sans";
+}
+section {
+    background:rgb(238, 237, 236);
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;    
+}
+section#Formulaire {
+    padding: 50px 0px 50px 10px;
+    width: 600px;
+    margin: 20px auto;
+    display:block;
+    background-color: white;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid rgb(139, 137, 137);
+    
+}
+h2{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.dispo{
+    display: flex;
+}
+input::placeholder {
+    color: black;
+}
+section#Formulaire form {
+    display: block;
+    width: 100%;
+}
+section#Formulaire form input#re {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    width:  96%;
+    height: 35px;
+    margin: 5px 10px 10px 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+
+}
+section#Formulaire form input#pre {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    width: 267px;
+    height: 35px;
+    margin: 5px 10px 10px 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+
+}
+section#Formulaire .cv#cv {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 35px;
+    margin: 5px 10px 10px 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+
+}
+section#Formulaire .cv#cv{
+    margin-left: 20px;
+}
+.cv{
+    display: flex;
+    padding: 10px;
+}
+section#Formulaire form button {
+    background: blue;
+    margin: 40px 0px 20px 445px;
+    width: 20%;
+    height: 25px;
+    border-radius: 8px;
+    border: none;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+}
+section#Formulaire form button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0px 10px 40px -5px #d6d6d6;
+}

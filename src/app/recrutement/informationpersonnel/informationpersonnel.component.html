@@ -1,0 +1,32 @@
+<!-- Information.component.html -->
+
+<div class="profile-container">
+  <div class="profile-icon">
+    <!-- Insérez ici votre icône de profil, par exemple une image -->
+    <img src="../../../assets/image/male_user_100px.png" alt="Image de profil">
+  </div>
+  <div class="profile-info">
+    <!-- Informations du profil -->
+    <div class="profile-item">
+      <span>Nom : </span><br>
+    </div>
+    <div class="profile-item">
+      <span>Prénoms : </span><br>
+    </div>
+    <div class="profile-item">
+      <span>Email :</span><br>
+
+    </div>
+
+    <div class="profile-item">
+      <span>Adresse : </span><br>
+    </div>
+    <div class="profile-item">
+      <span>Téléphone : </span><br>
+    </div>
+    <div class="profile-item">
+      <span>Mot de passe*****</span>
+      <button (click)="editPassword()">{{ isPasswordEditing ? 'Enregistrer' : 'Modifier' }}</button>
+    </div>
+  </div>
+</div>
