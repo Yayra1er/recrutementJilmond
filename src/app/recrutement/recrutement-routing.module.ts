@@ -6,6 +6,7 @@ import { LoginComponent } from '../authentification/login/login.component';
 import { AppComponent } from '../app.component';
 import { FormulaireComponent } from './formulaire/formulaire.component';
 import { GestionnaireDashboardComponent } from './gestionnaire-dashboard/gestionnaire-dashboard.component';
+import { InformationpersonnelComponent } from './informationpersonnel/informationpersonnel.component';
 
 const routes: Routes = [
 
@@ -21,6 +22,8 @@ children : [
 
 { path:'formulaire', component: FormulaireComponent},
 { path:'gestion', component: GestionnaireDashboardComponent},
+
+{ path:'Info', component: InformationpersonnelComponent},
 
 
 ];

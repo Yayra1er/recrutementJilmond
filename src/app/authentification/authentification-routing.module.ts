@@ -3,11 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { AuthentificationComponent } from './authentification.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { AcceuilCandidatComponent } from '../recrutement/acceuil-candidat/acceuil-candidat.component';
 
 const routes: Routes = [{ path: '', redirectTo: 'login', pathMatch: 'full' },
-{ path:'login', component: LoginComponent},
-{ path:'register', component: RegisterComponent},
-
+{ path:'connexion', component: LoginComponent},
+{ path:'Inscription', component: RegisterComponent},
+{ path:'acceuil', component: AcceuilCandidatComponent},
 
 ];
 

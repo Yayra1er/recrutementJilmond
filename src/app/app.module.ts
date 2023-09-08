@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AuthentificationModule } from './authentification/authentification.module';
 import { RecrutementModule } from './recrutement/recrutement.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -17,7 +19,9 @@ import { RecrutementModule } from './recrutement/recrutement.module';
     RecrutementModule,
     BrowserModule,
     AuthentificationModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
